@@ -155,10 +155,6 @@ module.exports = (function () {
       arguments = arguments + ' -d ' + options.globalDelayBetweenMillisec;
     }
 
-    if (typeof options.extra !== 'undefined' && options.extra != null) {
-      arguments = arguments + ' ' + options.extra;
-    }
-
     return arguments;
   };
 
